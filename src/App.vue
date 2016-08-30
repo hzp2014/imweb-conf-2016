@@ -130,6 +130,28 @@
             </div>
         </div>
     </section>
+
+    <section class="set-guide">
+        <h2 class="guide-title">会议指引</h2>
+        <div class="guide-cont">
+            <p>会议时间：2016-9-10 09:00-17:30</p>
+            <p>报名截止：2016-9-7 23:59</p>
+            <p>会议地址：深圳市南山区科技园科技中一路腾讯大厦2楼多功能厅</p>
+            <div class="guide-map">
+                <img src="./img/guide_map.png" /> 
+            </div>
+            <h3>交通指引</h3>
+            <h4>1.公交线路：</h4>
+            <p>深大北门②-公交车站</p>
+            <p>车次：19路;21路;36路;42路;70路;79路;81路;101路;113路;204路;223路;233路;234路;245路;245区间车;369路;b839路;m388路;m453路;n1路;n4路;n8路;高峰专线69路;海滨观光线;欧洲城假日专线</p>
+            <br/>
+            <h4>2.地铁线路：</h4>
+            <p>罗宝线-深大站</p>
+            <p>深大站 A3 口出，径直走15-20分钟，右手侧可看到腾讯大厦</p>
+        </div>
+        
+    </section>
+
     <div id="footer">
         <div id="footer-main">
             <div class="footer-link">
@@ -236,7 +258,8 @@ body {
     background: #1A3742;
     background-image: gradient(linear, 0% 0%, 0% 100%, from(#1A3742), to(#9EA183));
     background-image: linear-gradient(top, #1A3742, #9EA183);
-    font-family: "微软雅黑";
+    font-family: Microsoft YaHei;
+    overflow-x: hidden; 
 }
 h2.timepoint {
     text-align: center;
@@ -313,14 +336,14 @@ header.signage h1 {
     margin-top: 27px;
     margin-bottom: 0;
     font-size: 1.35em;
-    font-family: "微软雅黑";
+    font-family: Microsoft YaHei;
 }
 header.signage h2 {
     margin: 5px 0;
     padding: 0;
     font-size: 2em;
     letter-spacing: 2px;
-    font-family: "微软雅黑";
+    font-family: Microsoft YaHei;
 }
 header.signage p {
     margin: 0;
@@ -451,7 +474,7 @@ header.signage span.arrow {
     position: relative;
     list-style-type: none;
     padding: 30px 0 50px 0;
-    font-family: "微软雅黑";
+    font-family: Microsoft YaHei;
 }
 .timeline:before {
     content: '';
@@ -786,6 +809,40 @@ header.signage span.arrow {
 .partner-item-wording {
     color: #fff;
     font-size: 2em;
+}
+
+
+.set-guide {
+    margin: 0 auto; 
+    max-width: 1060px;   
+    padding-bottom: 50px;
+}
+
+.guide-title {
+    text-align: center;
+    font-size: 2em;
+    padding-bottom: 40px;
+    color: #fff;
+}
+
+.guide-cont p {
+    font-size: 18px;
+    line-height: 30px;
+    margin-left: 1em;
+}
+
+.guide-map {
+    padding: 30px 0;
+    max-width: 1060px;
+}
+
+.guide-map img {
+    width: 100%;
+}
+
+.guide-cont h3, .guide-cont h4 {
+    margin-left: 1em;
+    line-height: 30px;
 }
 
 /*footer*/
