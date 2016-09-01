@@ -15,7 +15,6 @@
                     <p>2016-09-10</p>
                     <p>深圳市南山区腾讯大厦</p>
                     <span class="line second"></span>
-                    <button v-on:click="jump(e, '153654')">免费票</button>
                     <button v-on:click="jump(e, '153658')">腾大餐厅体验票</button>
                 </section>
                 <span class="arrow"></span>
