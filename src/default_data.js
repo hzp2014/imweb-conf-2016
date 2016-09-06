@@ -11,7 +11,7 @@ export default {
         isChecked: 'checked'
     }, {
         author: '汤进伟',
-        info: '腾讯工程师',
+        info: 'IMWeb团队成员',
         title: '《RN在企鹅辅导中的应用》',
         time: '11:15',
         des: 'ReactNative给了前端更多的能力，但是RN 用在生产环境中，开发体验如何？性能如何？能替代原生app吗？',
@@ -28,12 +28,12 @@ export default {
         img: '陈映平.jpg',
         isChecked: 'checked',
     }, {
-        author: '黎清龙',
-        info: 'IMWeb团队成员',
-        title: '《真的需要后端吗？》',
+        author: '岑东益',
+        info: '腾讯工程师',
+        title: '《如何搭建高质量的Node服务》',
         time: '14:50',
-        des: '围绕一个 nobackend 系统，该系统主要是基于制定 schema 来创建 cgi 接口的理念设计实现，解决在大量业务需求下 cgi 和后台人力不足的问题，并同时提升前端开发的效率。',
-        img: '黎清龙.jpg'
+        des: 'Node做服务器很容易，稳定服务却不简单。带你修炼内功心法，构建高质量的Node服务。',
+        img: '岑东益.jpg'
     },{
         author: '朱林',
         info: 'IMWeb团队成员',
@@ -44,13 +44,20 @@ export default {
     }],
     // 下午-react
     pmReact: [{
+            author: '黄志鹏（嘉宾）',
+            info: '腾讯工程师',
+            title: '《React+Reflux实践及性能调优》',
+            time: '14:00',
+            des: '在形形色色的场景中，通常前端如何结合React及Reflux实践解决问题。和我们在性能调优方面的做出的努力和成果',
+            img: '黄志鹏.jpg',
+            isChecked: 'checked'
+    }, {
             author: '梁伟盛',
-            info: '腾讯高级工程师',
+            info: 'IMWeb团队成员',
             title: '《React+Redux组件化那些事》',
             time: '14:00',
             des: '页面功能越来越多？交互越来越复杂？让react + redux组件化帮你解决这些痛点',
-            img: '梁伟盛.jpg',
-            isChecked: 'checked'
+            img: '梁伟盛.jpg'
     }, {
             author: '杨春文',
             info: 'IMWeb团队成员',
@@ -77,11 +84,11 @@ export default {
             des: '教育的整体方案，首帧时长优化，流畅度优化，音视频多路的处理和音频上行方案',
             img: '黄龙.jpg'
     }, {
-            author: '吴颖',
+            author: '黎清龙',
             info: 'IMWeb团队成员',
-            title: '《前端工程化集成解决方案》',
+            title: '《真的需要后端吗？》',
             time: '15:30',
-            des: '开发工作中的各种重复繁琐的任务，如何通过构建轻松解决？对层出不穷的构建工具，不知道如何选择？',
-            img: '吴颖.jpg'
+            des: '围绕一个 nobackend 系统，该系统主要是基于制定 schema 来创建 cgi 接口的理念设计实现，解决在大量业务需求下 cgi 和后台人力不足的问题，并同时提升前端开发的效率。',
+            img: '黎清龙.jpg'
     }]
 }
